@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+int main() {
+	string isim;
+	int yas = 20;
+	yas = 21;
+	isim = "Taner Kocatepe" ;
+
+	cout << "merhaba" << endl << endl << "öğrenci adi-soyadı : " << isim << endl;
+	cout << "öğrenci yasi : " << yas;
+	cout << endl;
+
+	return 0;
+}
