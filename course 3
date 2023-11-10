@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+int main(){
+
+string isim ="caner kocatepe" ;
+int yas = 20;
+yas = 21 ;
+char notortalamasi = '65';
+floot sayisalnotortalamasi = 3.25;
+bool sinavaGirdiMi = true;
+
+double pi =  3.1415926535897932384626;
+cout << "Merhaba <<endl <<endl <<"öğrenci adi-soyadi : " << isim << endl;
+cout << "Ogrenci yasi : " << yas << endl ;
+cout << "Not ortalamasi : " <<notortalamasi <<endl;
+cout << "Ogrenci sayisal not ortalamasi : " <<sayisalnotortalamasi <<endl;
+cout << "Ogrenci Sinava girdi mi : " << sinavaGirdiMi <<endl;
+
+cout <<endl
+
+return 0;
+
+}
