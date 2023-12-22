@@ -1,0 +1,81 @@
+#include <iostream>
+
+
+
+using namespace std;
+int main() {
+	/* sonraki ders bunu sil
+
+	string isim = "Caner Kocatepe";
+	int yas = 20;
+	char NotOrtalamasi = 'A';			//tek bir karakter tutuyor char komudu '  ' kullanırız  tek bite
+	//aski tablosu var char için bir karşılığı var char not ortalaması = 65 (mesela 65 a ya denk geliyor ) yapınca aynı şey
+	float SayisalNotOrtalamsi = 3.25;   //ondalıklı kısmı tutar.... FLOAT YERİNE DOUBLE DA GİREBİLİRİZ .... AZ ondalık için YAZZIYORSAK FLOAT
+	int not1 = 70;
+	int not2 = 80;
+	int sinavlarnotortalamasi = (not1 + not2)/2;
+	/*int sınavlarortalamasi;
+	sınavlar ortalamasi = (not1+not2)/2;
+	yazsan da olur */
+
+	//Pİ SAYISI GİBİ Bİ SAYI İÇİN UZUN OLAN DOUBLE İLE TUTULUR . 
+	bool sinavagirdimi = true;          //true yerine 1 yazabiliriz. tek bit false yada 0 .
+	double pi = 3.1415926789987987979879; /* slash yıldız y
+
+	 derleyici buraları okumaz
+	 <<cout ins
+
+	birden fazla satır kullanabiliyotum
+	aparsan da o
+	lur gem kendi kapatı
+
+	yor*/
+
+	/* sonraki ders bunu sil
+
+
+
+	cout << "Merhaba !" << endl << endl << "Ogrenci Adi-Soyadi :  " << isim << endl << endl;
+	cout << "Ogrenci yasi : " << yas;
+	cout << endl << endl;
+	cout << "Not Ortalamasi : " << NotOrtalamasi << endl << endl;
+	cout << "Ogrenci NOT ortalamsi : " << SayisalNotOrtalamsi << endl << endl;
+	cout << "Ogrenci Sinava Girdi mi : " << sinavagirdimi << endl << endl;
+	cout << "Sinvalar not ortalamasi : " << sinavlarnotortalamasi << endl << endl;
+
+
+	*/
+	
+	int x = 12;
+	int y = 5;
+	x = x + 1;
+	x++;//x=x++ = x + 1 
+	y--;//y-- = y - 1 
+	float a = x / y;
+	//int tam sayı demek olduğu icin tabandaki tam sayıya yuvarlar 2.4 olması gerek ancak ikiside bir tam sayı int (en yakın tam sayıya değil) 2sibi float yazman lazzım
+	// 2 tanesi float olmalı işlemin  3 işlem varsa 2 varsa ikisi olmalı
+	int z= x % 10; // kalan 10 a bölümünden mesela
+	
+
+
+	cout << z;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	cout << endl;
+	return 0;
+
+
+
+}
